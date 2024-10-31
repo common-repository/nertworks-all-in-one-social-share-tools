@@ -1,0 +1,48 @@
+#socialcontainer li{
+display:inline !important;
+float:left;
+max-width:100px;
+}
+#socialcontainer{
+width:100%;
+min-height:60px;
+padding:10px;
+float:left;
+}
+#socialcontainer2 li{
+display:inline !important;
+float:left;
+max-width:64px;
+}
+#socialcontainer2{
+width:100%;
+min-height:100px;
+padding:10px;
+float:left;
+}
+#activityDiv{
+	min-height:200px;
+	width:100%;
+}
+#donateDiv{
+	min-height:250px;
+	width:100%;
+	float:left;
+	
+}
+img.hoverImages {
+	max-width:64px;
+	#margin:20px;
+	padding:2px;
+	#outline:2px solid #DDD;
+	border:#a1a1a1;	
+	float:left;
+	-webkit-transition: margin 0.3s ease-out;
+    -moz-transition: margin 0.3s ease-out;
+    -o-transition: margin 0.3s ease-out;
+}
+ 
+img.hoverImages:hover {
+	cursor:pointer;
+    margin-top: -10px;
+}
